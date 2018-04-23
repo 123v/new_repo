@@ -1,0 +1,238 @@
+.container{
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  left: 50px;
+  top:10px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #00CDA1;
+  height: 13%!important;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  visibility: hidden;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #304051;
+  /* padding: 1.5em 0.5em 0; */
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #304051;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding-top: 2.5em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  /* background: rgba(0, 0, 0, 0.3); */
+  background-color: white;
+}
+
+.bm-menu-wrap{
+  width: 180px!important;
+}
+
+.menu-item{
+  height: 30px;
+  /* width: 100%; */
+  display: flex!important;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  background: linear-gradient(to right,#009680,#304051);
+}
+
+.menu-items{
+  height: 30px;
+  width: 100%;
+  color: White;
+  padding-top: 7px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.menu-bar{
+  height: 50px;
+  width: 100%;
+  background: linear-gradient(to right,#304051,#00CDA1);
+}
+
+.box-header{
+  height: 30px;
+  width: 100%;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.checkbox-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding-left: 50px;
+    padding-top: 35px; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.container-check {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 10px;
+    color: black;
+    font-weight: unset !important;
+}
+
+
+/* Hide the browser's default checkbox */
+.container-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark-check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input ~ .checkmark-check {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark-check {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark-check:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark-check:after {
+    display: block;
+}
+
+.container-check .checkmark-check:after {
+    left: 7px;
+    top: 4px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+.box-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.box-content1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.min-box{
+  height: 30px;
+  width: 80%;
+  padding:3px;
+  border-bottom: 1px solid #555;
+  display: flex;
+  justify-content: space-around;
+}
+.min-box1{
+  height: 20px;
+  width: 100%;
+  padding:0 10px;
+  /* border-bottom: 1px solid #555; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-content{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 30px;
+}
+
+.dashboard-container{
+  background-color: #F2F2F2;
+}
+
+row{
+  background-color: #555;
+}
+
+.box-container{
+  background-color: white;
+  margin: 20px;
+  height: 200px;
+}
+
+.box-container1{
+  background-color: white;
+  margin: 20px;
+}

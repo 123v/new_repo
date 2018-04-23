@@ -1,0 +1,21 @@
+.header-container{
+  height: 50px;
+  width: 100%;
+}
+
+.logo-container{
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-content{
+  height: 100%;
+  width: 100%;
+  background-image: url("/public/images/afficiency-logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
